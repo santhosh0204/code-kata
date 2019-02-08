@@ -1,6 +1,5 @@
-a = int(raw_input())
-b = int(raw_input())
-c = int(raw_input())
+inputvalue=raw_input()
+a,b,c,=inputvalue.split(" ")
 if (a>b) and (a>c):
 	print(a)
 elif (b>a) and (b>c):
