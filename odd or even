@@ -1,7 +1,7 @@
-Sh=int(raw_input())
-if(Sh<0):
+S=int(raw_input())
+if(S<0):
     print("invalid")
-elif(Sh%2==0):
-    print("Even")
-elif(Sh%2==1):
+elif(S%2==1):
     print("Odd")
+elif(S%2==0):
+    print("Even")
