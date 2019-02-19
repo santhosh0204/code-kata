@@ -25,7 +25,13 @@ if choice==3:
     c=kms*mini
 if choice==4:
     c=kms*prime
-print("price for your ride ",c)
-print("selected location",places[place-1])
-print("distance traveled",kms)
-print("selected cab is",cartype[choice-1])
+print("please conform booking\n 1.yes,2.no")
+stat=int(input())
+if stat==1:
+    print("Yes")
+else:
+    print("No")
+print("                                                                   price for your ride ",c)
+print("                                                                  selected location",places[place-1])
+print("                                                                   distance traveled",kms)
+print("                                                                   selected cab ",cartype[choice-1])
