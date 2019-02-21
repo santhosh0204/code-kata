@@ -1,0 +1,14 @@
+create table studetails(rollno integer,name varchar(100),dept varchar(10),year integer);
+insert studetails values(1,'mittu','ece',2020);
+insert studetails values(2,'ammu','eee',2019);
+insert studetails values(3,'achu','ece',2019);
+insert studetails values(4,'shadhir','mech',2018);
+insert studetails values(5,'sudharshan','ece',2020);
+insert studetails values(6,'ayisha','eee',2018);
+insert studetails values(7,'fayas','eee',2020);
+insert studetails values(8,'dhansir','csc',2018);
+insert studetails values(9,'peer','ece',2019);
+insert studetails values(10,'shaggy','csc',2019);
+alter table studetails add email varchar(50);
+delete from studetails;
+select * from studetails;
